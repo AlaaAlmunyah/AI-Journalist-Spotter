@@ -1,16 +1,16 @@
-# 🧠 Journalist Detector using YOLOv8
+#  Journalist Detector using YOLOv8
 
 An AI-powered system designed to detect journalists in various scenes by identifying the presence of a person alongside specific equipment like cameras or microphones.
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 This project was developed to automatically identify journalists in images or videos using computer vision techniques. By detecting both a person and typical journalist equipment (e.g., camera or microphone), the system can infer the presence of a journalist.
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **YOLOv8** – Object detection model
 - **Roboflow** – Dataset management and labeling
@@ -20,7 +20,7 @@ This project was developed to automatically identify journalists in images or vi
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - Combined two datasets:
   - One for detecting people
@@ -39,7 +39,7 @@ This project was developed to automatically identify journalists in images or vi
 
 ---
 
-## ✅ Testing & Evaluation
+##  Testing & Evaluation
 
 - Trained over **50 epochs**
 - Best validation results:
@@ -50,7 +50,7 @@ This project was developed to automatically identify journalists in images or vi
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - Increase dataset size with more labeled "Person + Equipment" images
 - Improve bounding box accuracy
@@ -59,7 +59,7 @@ This project was developed to automatically identify journalists in images or vi
 
 ---
 
-## 📦 How to Use
+##  How to Use
 
 ```python
 from ultralytics import YOLO
